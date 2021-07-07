@@ -12,7 +12,7 @@ function onLoginSubmit(event){
     const username = loginInput.value;
     // username save local storage 
     localStorage.setItem(USERNAME_KEY, username);
-    paintGreetings();
+    paintGreetings(username);
 }
 
 function paintGreetings(username){
